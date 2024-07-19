@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Serving Fonts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class='hover'>Hover on a Font</h1>
+    <h1 class='heading'>Serving Font</h1>
+    
+
+    <label class="card">Tiny5</label>
+    <div class="font-sample Tiny5"><p>
+I have researched various fonts available on Google Fonts, ultimately selecting 'Tiny5' due to its rarity, with only 5% of users opting for this particular font. In my CSS stylesheet, I've utilized a class called .font-sample to style the font previews. These previews are positioned centrally within their containers, initially hidden with an opacity of 0. When the user hovers over corresponding labels (styled as block elements with appropriate margins), the font samples fade in smoothly (opacity transitioning to 1). This setup provides an interactive preview of each font's appearance, enabling users to compare and select fonts seamlessly directly on the web page.
+
+Additionally, the @import rule in CSS is employed to include external style sheets into the main CSS file. This approach helps in organizing and managing styles by allowing separate CSS files to be imported. For instance, Google Fonts are often imported using @import statements, ensuring that the desired fonts are available and applied consistently across the website without cluttering the main CSS file.</p></div>
+
+    
+</div>
+
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5');
+body {
+    font-family:Tiny5;
+    background-color: black;
+
+}
+.hover{
+    color: white;
+}
+.heading{
+    color: white;
+    
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 45px;
+    cursor:default;
+    width: 10%;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.font-sample {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+
+    transition: opacity 0.5s;
+}
+
+label {
+ 
+    margin: 5px 0;
+}
+
+label:hover + .font-sample {
+ ;
+}
+
+
+.Tiny5 {
+    font-family: 'Tiny5';
+    color: white;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    color: white;
+}
